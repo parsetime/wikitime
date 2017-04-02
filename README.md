@@ -39,7 +39,7 @@ In ambiente win per richiamare l'interprete python utilizzare 'python' e non 'py
 
 ATTENZIONE: il programma è sperimentale e dipende dal layout delle pagine web generate dal progetto. E' stato scritto in poco tempo ed in qualche notte insonne. Il parser fa del suo meglio ed è stato testato su pagine esistenti, ma non è infallibile. In ogni caso gli errori possono sempre essere presenti anche sul calcolo dei tempi. Controllare ACCURATAMENTE i risultati. Il programma è sempre suscettibile di miglioramenti e non si assumono responsabilità per errori vari. La collaborazione dei professori interessati e degli studenti è la benvenuta ed è indispensabile per dare loro un tool funzionante ed utile.
 
-Angelo Marcone, IK8VRQ.
+Angelo, IK8VRQ.
 
 Per segnalazioni bug o info: parsetime@gmail.com
 
