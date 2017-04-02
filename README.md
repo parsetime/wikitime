@@ -10,7 +10,8 @@ E' stato provato sulla pagina progetto del Prof. Nitti:
 
 https://it.wikipedia.org/wiki/Progetto:Coordinamento/Scuole/Alternanza_Nitti
 
-Si ringraziano il Prof. Nitti e tutti i suoi studenti per la preziosa collaborazione data e Claudio forziati per l'dea del progetto il supporto fornito durante lo sviluppo. E' stato un privilegio lavorare con tutti loro.
+Si ringraziano il Prof. Nitti e tutti i suoi studenti per la preziosa collaborazione data e Claudio forziati per l'dea del progetto ed il supporto fornito durante lo sviluppo. E' stato molto stimolante ed un privilegio lavorare con tutti loro.
+Grazie.
 
 Istruzioni:
 1) scaricare il file pfm_xx.py
@@ -38,5 +39,5 @@ In ambiente win per richiamare l'interprete python utilizzare python e non pytho
 ATTENZIONE: il programma è sperimentale e dipende dal layout delle pagine web generate dal progetto. E' stato scritto in poco tempo ed in qualche notte insonne. Il parser fa del suo meglio ed è stato testato su pagine esistenti, ma non è infallibile. In ogni caso gli errori possono sempre essere presenti anche sul calcolo dei tempi. Controllare ACCURATAMENTE i risultati. Il programma è sempre suscettibile di miglioramenti e non si assumono responsabilità per errori vari. La collaborazione dei professori interessati e degli studenti è la benvenuta ed è indispensabile per dare loro un tool funzionante ed utile.
 
 Per segnalazioni bug o info: parsetime@gmail.com
-'keep learning, keep going' listen during  #maptime meeting 
+'keep learning, keep going!' listen during a #maptime meeting 
 
