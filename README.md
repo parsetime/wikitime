@@ -35,7 +35,7 @@ python3 pfm_xx.py -s url_della_pagina_dello_studente/essa
 
 I file generati di tipo csv possono essere letti da un qualsiasi foglio elettronico sia in ambiente win che in ambiente linux.
 
-In ambiente win per richiamare l'interprete python utilizzare python e non python3. Controllare comunque prima di lanciare lo script il funzionamento dell'interprete python lanciandolo da terminale con python o python3. Quando si è sicuri che l'interprete lavori si può utilizzare lo script.
+In ambiente win per richiamare l'interprete python utilizzare 'python' e non 'python3'. Controllare comunque prima di lanciare lo script il funzionamento dell'interprete python richiamandolo da terminale con 'python' o 'python3'. Quando si è sicuri che l'interprete lavori si può utilizzare lo script.
 
 ATTENZIONE: il programma è sperimentale e dipende dal layout delle pagine web generate dal progetto. E' stato scritto in poco tempo ed in qualche notte insonne. Il parser fa del suo meglio ed è stato testato su pagine esistenti, ma non è infallibile. In ogni caso gli errori possono sempre essere presenti anche sul calcolo dei tempi. Controllare ACCURATAMENTE i risultati. Il programma è sempre suscettibile di miglioramenti e non si assumono responsabilità per errori vari. La collaborazione dei professori interessati e degli studenti è la benvenuta ed è indispensabile per dare loro un tool funzionante ed utile.
 
