@@ -24,6 +24,7 @@ In ambiente win entrare in modo terminale utilizzando il comando da start "esegu
 Due modi di funzionamento:
 
 modo teacher (opzione -t): genera un file csv con i nomi degli studenti ed il loro impegno totale.
+
 modo student (opzione -s): genera un file csv relativo al singolo studente con i tempi dettagliati per ogni sessione
 
 Linea di comando:
