@@ -21,9 +21,9 @@ modo student (opzione -s): genera un file csv relativo al singolo studente con i
 
 Linea di comando:
 
-python3 pfm.py -t url_della_pagina_del_progetto
+python3 pfm_xx.py -t url_della_pagina_del_progetto
 
-python3 pfm.py -s url_della_pagina_dello_studente/essa
+python3 pfm_xx.py -s url_della_pagina_dello_studente/essa
 
 I file generati di tipo csv possono essere letti da un qualsiasi foglio elettronico sia in ambiemte win che in ambiente linux.
 
