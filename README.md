@@ -42,5 +42,6 @@ ATTENZIONE: il programma è sperimentale e dipende dal layout delle pagine web g
 Angelo Marcone, IK8VRQ.
 
 Per segnalazioni bug o info: parsetime@gmail.com
+
 'keep learning, keep going!' listen during a #maptime meeting 
 
