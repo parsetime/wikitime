@@ -1,0 +1,49 @@
+***Note tecniche***
+
+Queste note descrivono a grandi linee il funzionamento del parser di pfm_03.py.
+
+Utilizzando l'opzione -t il software effettua il download su disco della pagina del progetto.
+L'indirizzo della pagina è nei parametri di lancio del software.
+
+Inizia poi il parsing del file scaricato, leggendo riga per riga il file.
+Per posizionarsi all'inizio dell'elenco degli studenti pfm_xx cerca la stringa seguente:
+
+	'title="Modifica la sezione Elenco degli studenti partecipanti"'
+
+una volta trovata la stringa mediante uso di espressioni regolari procede all'individuazione delle seguenti stringhe
+in sequenza all'interno della linea letta:
+
+			'msg'
+			'Utente:'
+			'" title'
+			'/'
+
+Estrae quindi, basandosi sulla posizione di queste stringhe all'interno della linea, le informazioni dell'Utente e del link alla sua pagina del registro elettronico.
+
+Le informazioini trovate sono memorizzate in un file dal nome: 'alunni.csv'.
+
+Procede ora alla lettura del 'file alunni.csv' e riga per riga scarica su disco (per poi rimuoverla alla fine del processo),
+la pagina relativa al registro elettronico del singolo studente.
+
+Effettua poi il parsing di questa pagina alla ricerca delle sessioni di lavoro.
+
+La sessione viene identificata dalla stringa: '<p><b>Sessione \d+</b></p>' mediante uso di espressioni regolari.
+Vengono ricercate poi le stringhe di 'inizio sessione', 'fine sessione' e quella relativa alle attività svolte: 'attività svolta'.
+
+I valori temporali e la stringa dell'attività vengono salvati in un file di nome: 'risultati_totali.csv' calcolando,
+ la somma del tempo impiegato nelle varie sessioni. 
+
+Nel caso in cui il software sia posto in modo -s (modo studente) su disco viene salvato un file diverso: nome_studente.csv.
+In questo caso vengono salvate le informazioni dettagliate relative al singolo studente per ogni sessione di lavoro, indicando
+al contempo l'attività svolta in quel tempo. In questo caso il parametro url nella riga di comando deve essere la pagina
+del registro elettronico dello studente e non del progetto.
+In questo caso, dopo aver scaricato la pagina su disco, il software ne effettua il parsing alla ricerca delle varie sessioni.
+Per ognuna di queste, come indicato prima, individua i tempi e le attività salvandole in questo caso su disco nel file csv per
+averne una lista dettagliata.
+
+Per info, bug o altro: parsetime@gmail.com
+
+Angelo, IK8VRQ
+
+
+
