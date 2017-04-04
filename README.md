@@ -1,6 +1,6 @@
 # wikitime
-Progetto WIKI: progetto di alternanza scuola-lavoro
-Il progetto, sviluppato da Professori della scuola, intende mettere nelle condizioni gli studenti di lavorare alla creazione o al miglioramento sulle piattaforme wiki di alcuni contenuti legati a discipline varie.
+Progetto WIKI "Alternanza Nitti": progetto di alternanza scuola-lavoro
+Il progetto, sviluppato da Professori dell'Istituto di Istruzione Superiore "F.S. Nitti" di Potenza in collaborazione con Wikimedia Italia, intende mettere nelle condizioni gli studenti di lavorare alla creazione o al miglioramento sulle piattaforme wiki di alcuni contenuti legati a discipline varie.
 
 Il sw allegato pfm_xx.py è un piccolo script python che consente di estrarre i dati dai registri elettronici degli studenti al fine di quantizzare il loro impegno sul progetto. Rilasciato su licenza CC-BY.
 E' stato provato su piattaforma Linux (XFCE, Mint 14.04) e win7. Funziona da riga di comando.
@@ -10,7 +10,7 @@ E' stato provato sulla pagina progetto dell'Istituto "F.S. Nitti" di Potenza:
 
 https://it.wikipedia.org/wiki/Progetto:Coordinamento/Scuole/Alternanza_Nitti
 
-Si ringraziano i professori dell'Istituto che partecipano al progetto e tutti i suoi studenti per la preziosa collaborazione data e Claudio Forziati per l'idea del progetto ed il supporto fornito durante lo sviluppo. E' stato molto stimolante ed un privilegio lavorare con tutti loro.
+Si ringraziano Luigi Catalani, i professori dell'Istituto e tutti gli studenti che partecipano al progetto per la preziosa collaborazione data e Claudio Forziati per l'idea del progetto ed il supporto fornito durante lo sviluppo. E' stato molto stimolante ed un privilegio lavorare con tutti loro.
 Grazie.
 
 Istruzioni:
