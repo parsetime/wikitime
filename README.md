@@ -6,11 +6,11 @@ Il sw allegato pfm_xx.py è un piccolo script python che consente di estrarre i 
 E' stato provato su piattaforma Linux (XFCE, Mint 14.04) e win7. Funziona da riga di comando.
 E' necessario il collegamento ad internet durante il funzionamento.
 
-E' stato provato sulla pagina progetto del Prof. Nitti:
+E' stato provato sulla pagina progetto dell'Istituto "F.S. Nitti" di Potenza:
 
 https://it.wikipedia.org/wiki/Progetto:Coordinamento/Scuole/Alternanza_Nitti
 
-Si ringraziano il Prof. Nitti e tutti i suoi studenti per la preziosa collaborazione data e Claudio Forziati per l'dea del progetto ed il supporto fornito durante lo sviluppo. E' stato molto stimolante ed un privilegio lavorare con tutti loro.
+Si ringraziano i professori dell'Istituto che partecipano al progetto e tutti i suoi studenti per la preziosa collaborazione data e Claudio Forziati per l'idea del progetto ed il supporto fornito durante lo sviluppo. E' stato molto stimolante ed un privilegio lavorare con tutti loro.
 Grazie.
 
 Istruzioni:
