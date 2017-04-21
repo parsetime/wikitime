@@ -1,3 +1,3 @@
 pfm_03.py prima versione
-pfm_04.py eliminato bug sulla lettura della data dalle pagine studenti
+pfm_04.py eliminato bug sulla lettura della data (primi giorni del mese) dalle pagine studenti
 
