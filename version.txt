@@ -1,6 +1,11 @@
 pfm_03.py prima versione
 pfm_04.py eliminato bug sulla lettura della data (primi giorni del mese) dalle pagine studenti
-pfm_05.py migliorato il parsing effettuato sulla data delle sessioni
+pfm_05.py migliorato il parsing effettuato sulla data delle sessioni:
+	  Nel caso di errore di lettura di una pagina di uno studente, in modo 't', la pagina viene lasciata su disco
+          come file 'txt' e, durante il funzionamento viene dichiarato l'errore e la pagina su cui si è verificato.
+	  Da prove fatte, sono tipicamente indicate le date in modo errato. Si può quindi correggere la pagina su wiki
+	  e rilanciare il programma.
+	
 
 
 
