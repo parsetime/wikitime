@@ -9,7 +9,7 @@ E' necessario il collegamento ad internet durante il funzionamento.
 
 E' stato provato sulla pagina progetto dell'Istituto "F.S. Nitti" di Potenza:
 
-[Progetto - Alternaza Scuole - Nitti](https://it.wikipedia.org/wiki/Progetto:Coordinamento/Scuole/Alternanza_Nitti)
+[Progetto - Alternanza Scuole - Nitti](https://it.wikipedia.org/wiki/Progetto:Coordinamento/Scuole/Alternanza_Nitti)
 
 Si ringraziano Luigi Catalani, i professori dell'Istituto e tutti gli studenti che partecipano al progetto per la preziosa collaborazione data e Claudio Forziati per l'idea del progetto ed il supporto fornito durante lo sviluppo. E' stato molto stimolante ed un privilegio lavorare con tutti loro.
 Grazie.
@@ -37,17 +37,23 @@ python3 pfm_xx.py -s url_della_pagina_dello_studente/essa
 
 I file generati di tipo csv possono essere letti da un qualsiasi foglio elettronico sia in ambiente win che in ambiente linux.
 
+#### licenza
+CC-BY
+
 #### note
 
 In ambiente win per richiamare l'interprete python utilizzare 'python' e non 'python3'. Controllare comunque prima di lanciare lo script il funzionamento dell'interprete python richiamandolo da terminale con 'python' o 'python3'. Quando si è sicuri che l'interprete lavori si può utilizzare lo script. 
 Durante il processo di parsing, in modo '-t', per le pagine su cui il parsing ha trovato difficoltà ad estrarre i dati, vengono indicate le pagine di errore. Si può effettuare quindi un controllo visivo per correggere gli eventuali errori di digitazione dei tempi e ripetere il processo.
 
+#### ATTENZIONE: 
 
-ATTENZIONE: il programma è sperimentale e dipende dal layout delle pagine web generate dal progetto. E' stato scritto in poco tempo ed in qualche notte insonne. Il parser fa del suo meglio ed è stato testato su pagine esistenti, ma non è infallibile. In ogni caso gli errori possono sempre essere presenti anche sul calcolo dei tempi. Controllare ACCURATAMENTE i risultati. Il programma è sempre suscettibile di miglioramenti e non si assumono responsabilità per errori vari. La collaborazione dei professori interessati e degli studenti è la benvenuta ed è indispensabile per dare loro un tool funzionante ed utile.
+il programma è sperimentale e dipende dal layout delle pagine web generate dal progetto. E' stato scritto in poco tempo ed in qualche notte insonne. Il parser fa del suo meglio ed è stato testato su pagine esistenti, ma non è infallibile. In ogni caso gli errori possono sempre essere presenti anche sul calcolo dei tempi. Controllare ACCURATAMENTE i risultati. Il programma è sempre suscettibile di miglioramenti e non si assumono responsabilità per errori vari. La collaborazione dei professori interessati e degli studenti è la benvenuta ed è indispensabile per dare loro un tool funzionante ed utile.
+
 
 Angelo, IK8VRQ.
 
 Per segnalazioni bug o info: parsetime@gmail.com
 
 'keep learning, keep going!' listen during a #maptime meeting 
+
 
