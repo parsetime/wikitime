@@ -2,7 +2,7 @@
 Progetto WIKI "Alternanza Nitti": progetto di alternanza scuola-lavoro
 Il progetto, sviluppato da Professori dell'Istituto di Istruzione Superiore "F.S. Nitti" di Potenza in collaborazione con Wikimedia Italia, intende mettere nelle condizioni gli studenti di lavorare alla creazione o al miglioramento sulle piattaforme wiki di alcuni contenuti legati a discipline varie.
 
-### descrizione
+#### descrizione
 Il sw allegato pfm_xx.py è un piccolo script python che consente di estrarre i dati dai registri elettronici degli studenti al fine di quantizzare il loro impegno sul progetto. Rilasciato su licenza CC-BY.
 E' stato provato su piattaforma Linux (XFCE, Mint 14.04) e win7. Funziona da riga di comando.
 E' necessario il collegamento ad internet durante il funzionamento.
@@ -14,7 +14,7 @@ E' stato provato sulla pagina progetto dell'Istituto "F.S. Nitti" di Potenza:
 Si ringraziano Luigi Catalani, i professori dell'Istituto e tutti gli studenti che partecipano al progetto per la preziosa collaborazione data e Claudio Forziati per l'idea del progetto ed il supporto fornito durante lo sviluppo. E' stato molto stimolante ed un privilegio lavorare con tutti loro.
 Grazie.
 
-### come funziona
+#### come funziona
 
 1) scaricare il file pfm_xx.py
 2) posizionarlo in una directory vuota
@@ -41,6 +41,10 @@ I file generati di tipo csv possono essere letti da un qualsiasi foglio elettron
 CC-BY
 
 #### note
+
+In ambiente Linux python è già, in genere, presente.
+
+In ambiente win va installato dal sito: [python-download](https://www.python.org/downloads/). E' necessaria la versione 3 di Python. 
 
 In ambiente win per richiamare l'interprete python utilizzare 'python' e non 'python3'. Controllare comunque prima di lanciare lo script il funzionamento dell'interprete python richiamandolo da terminale con 'python' o 'python3'. Quando si è sicuri che l'interprete lavori si può utilizzare lo script. 
 Durante il processo di parsing, in modo '-t', per le pagine su cui il parsing ha trovato difficoltà ad estrarre i dati, vengono indicate le pagine di errore. Si può effettuare quindi un controllo visivo per correggere gli eventuali errori di digitazione dei tempi e ripetere il processo.
