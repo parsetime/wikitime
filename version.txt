@@ -5,7 +5,9 @@ pfm_05.py migliorato il parsing effettuato sulla data delle sessioni:
           come file 'txt' e, durante il funzionamento viene dichiarato l'errore e la pagina su cui si è verificato.
 	  Da prove fatte, sono tipicamente indicate le date in modo errato. Si può quindi correggere la pagina su wiki
 	  e rilanciare il programma.
-pfm_06.py Aggiornata la 'localizazione' in modo che il parsing riesca a gestire correttamente la data con i nomi dei mesi in 		  italiano.
+pfm_06.py Aggiornata la 'localizazione' in modo che il parsing riesca a gestire correttamente la data con i nomi 
+	  dei mesi in italiano.
+pfm_07.py Modificata la gestione del computo delle ore totali x studente.
 
 	  
 	
